@@ -19,7 +19,7 @@ from pandas import DataFrame
 with open ("C:\Users\saadk\Desktop\Saadswork\janfull.csv", 'rU') as f:
     reader = csv.reader(f)
     col_names = reader.next()
-    rows = [(dt.strptime(row[0], '%y-%b'), float(row[1])) for row in reader]
+    rows = [(dt.strptime(row[0], '%Y-%m-%d'), float(row[1])) for row in reader]
 sales_df = pd.DataFrame(rows, columns = col_names)
 raw_ls = list(sales_df['sales'])
 
