@@ -18,10 +18,12 @@ from pandas import DataFrame
 
 with open ("C:\Users\saadk\Desktop\Saadswork\janfull.csv", 'rU') as f:
     reader = csv.reader(f)
-    col_names = reader.next()
-    rows = [(dt.strptime(row[0], '%Y-%m-%d'), float(row[1])) for row in reader]
+    col_names = ["date","sales"]
+    rows = [(dt.strptime(row[0], '%Y-%m-%d'), float(row[1].replace(',',''))) for row in reader]
 sales_df = pd.DataFrame(rows, columns = col_names)
 raw_ls = list(sales_df['sales'])
+
+print(f)
 
 # optimized parameters
 hw_fc, alpha, beta, rmse = hw.linear(raw_ls,3)
@@ -36,7 +38,7 @@ plt.plot([None]*(len(raw_ls)-1) + [raw_ls[-1]] + hw_fc, color = 'blue', marker =
 
 
 
-
+#\\\\ end here \\\\
 
 
 
