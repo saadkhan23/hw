@@ -1,0 +1,36 @@
+C:\Python27\python.exe
+2.7.15 (v2.7.15:ca079a3ea3, Apr 30 2018, 16:30:26) [MSC v.1500 64 bit (AMD64)]
+C:\Python27\lib\site-packages\pandas\_libs\__init__.py:4: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected zd, got zd
+  from .tslib import iNaT, NaT, Timestamp, Timedelta, OutOfBoundsDatetime
+C:\Python27\lib\site-packages\pandas\__init__.py:26: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected zd, got zd
+  from pandas._libs import (hashtable as _hashtable,
+C:\Python27\lib\site-packages\pandas\core\dtypes\common.py:6: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected zd, got zd
+  from pandas._libs import algos, lib
+C:\Python27\lib\site-packages\pandas\core\util\hashing.py:7: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected zd, got zd
+  from pandas._libs import hashing, tslib
+C:\Python27\lib\site-packages\pandas\core\indexes\base.py:7: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected zd, got zd
+  from pandas._libs import (lib, index as libindex, tslib as libts,
+C:\Python27\lib\site-packages\pandas\tseries\offsets.py:21: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected zd, got zd
+  import pandas._libs.tslibs.offsets as liboffsets
+C:\Python27\lib\site-packages\pandas\core\ops.py:16: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected zd, got zd
+  from pandas._libs import algos as libalgos, ops as libops
+C:\Python27\lib\site-packages\pandas\core\indexes\interval.py:32: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected zd, got zd
+  from pandas._libs.interval import (
+C:\Python27\lib\site-packages\pandas\core\internals.py:14: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected zd, got zd
+  from pandas._libs import internals as libinternals
+C:\Python27\lib\site-packages\pandas\core\sparse\array.py:33: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected zd, got zd
+  import pandas._libs.sparse as splib
+C:\Python27\lib\site-packages\pandas\core\window.py:36: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected zd, got zd
+  import pandas._libs.window as _window
+C:\Python27\lib\site-packages\pandas\core\groupby\groupby.py:68: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected zd, got zd
+  from pandas._libs import (lib, reduction,
+C:\Python27\lib\site-packages\pandas\core\reshape\reshape.py:30: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected zd, got zd
+  from pandas._libs import algos as _algos, reshape as _reshape
+C:\Python27\lib\site-packages\pandas\io\parsers.py:45: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected zd, got zd
+  import pandas._libs.parsers as parsers
+C:\Python27\lib\site-packages\pandas\io\pytables.py:50: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected zd, got zd
+  from pandas._libs import algos, lib, writers as libwriters
+<closed file 'C:\\Users\\saadk\\Desktop\\Saadswork\\janfull.csv', mode 'rU' at 0x0000000015120B70>
+alpha:1.0, beta:0.0
+rmse: 8695904.80558, frac_rmse: 0.5396317294040328
+[Finished in 1.417s]
